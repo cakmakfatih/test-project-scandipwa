@@ -1,0 +1,8 @@
+.ModeToggleButton {
+    filter: invert(0);
+    transition: filter ease-out 100ms;
+
+    &_isInverted {
+        filter: invert(1);
+    }
+}
