@@ -1,5 +1,5 @@
-import DarkModeReducer from "../store/DarkMode/DarkMode.reducer";
-import DarkModeProvider from "../component/DarkModeProvider";
+import DarkModeReducer from "scandi-dark-theme/src/store/DarkMode/DarkMode.reducer";
+import DarkModeProvider from "scandi-dark-theme/src/component/DarkModeProvider";
 
 export const renderRouter = (args, callback, instance) => {
   return <DarkModeProvider key="router">{callback(...args)}</DarkModeProvider>;

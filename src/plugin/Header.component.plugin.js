@@ -1,4 +1,4 @@
-import ModeToggleButton from "../component/ModeToggleButton";
+import ModeToggleButton from "scandi-dark-theme/src/component/ModeToggleButton";
 
 export const renderTopMenu = (args, callback, instance) => {
   return (

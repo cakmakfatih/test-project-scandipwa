@@ -13,7 +13,4 @@ export const mapDispatchToProps = (dispatch) => ({
   enableDarkMode: (enabled) => dispatch(enableDarkMode(enabled)),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(ModeToggleButton);
+export default connect(mapStateToProps, mapDispatchToProps)(ModeToggleButton);

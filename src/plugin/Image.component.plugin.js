@@ -1,4 +1,4 @@
-import ColorInverter from "../component/ColorInverter";
+import ColorInverter from "scandi-dark-theme/src/component/ColorInverter";
 
 export const render = (args, callback, instance) => {
   return <ColorInverter>{callback(...args)}</ColorInverter>;
